@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_logo"
+    tools:context=".admin">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="410dp"
+        android:layout_height="91dp"
+
+        android:layout_marginTop="48dp"
+        android:background="@color/colorNEGRO"
+        android:fontFamily="@font/black_ops_one"
+        android:gravity="center_vertical"
+        android:text="nombre..."
+        android:textColor="@color/colorBLANCO"
+        android:textSize="24sp"
+        android:typeface="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnUsuarios"
+        android:layout_width="265dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/colorROJO"
+        android:text="LISTA DE USUARIOS"
+        android:textColor="@color/colorBLANCO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnReservas"
+        android:layout_width="265dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="484dp"
+        android:layout_marginEnd="8dp"
+        android:background="#2D8136"
+        android:text="VER RESERVAS"
+        android:textColor="@color/colorBLANCO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bnAdminVehiculos"
+        android:layout_width="265dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/colorPrimary"
+        android:text="ADMINISTRAR VEHICULOS"
+        android:textColor="@color/colorBLANCO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

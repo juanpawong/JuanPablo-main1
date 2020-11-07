@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBLANCO">#ffffff</color>
+    <color name="colorNEGRO">#000000</color>
+    <color name="colorPLOMO">#333333</color>
+    <color name="colorROJO">#F71802</color>
+    <color name="graylight">#BEBEBE</color>
+    <color name="startblue">#2F4F4F</color>
+    <color name="endblue">#32CD32</color>
+    <color name="startbluej">#00008C</color>
+    <color name="endbluej">#265CFF</color>
+</resources>

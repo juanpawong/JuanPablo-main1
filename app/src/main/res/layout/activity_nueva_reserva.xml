@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_logo"
+    tools:context=".nueva_reserva">
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="372dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="REGISTRAR NUEVA RESERVA"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorBLANCO"
+        android:textSize="24sp"
+        android:typeface="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="379dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        android:text="FECHA INICIA :"
+        android:textColor="@color/colorBLANCO"
+        android:textSize="18sp"
+        android:typeface="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_titulo" />
+
+
+    <DatePicker
+        android:id="@+id/datePickerInicial"
+        android:layout_width="324dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#FBFBFB"
+        android:calendarViewShown="false"
+
+        android:datePickerMode="spinner"
+        android:textColor="@color/colorBLANCO"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="379dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="FECHA FINAL :"
+        android:textColor="@color/colorBLANCO"
+        android:textSize="18sp"
+        android:typeface="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/datePickerInicial" />
+
+    <DatePicker
+        android:id="@+id/datePickerFinal"
+        android:layout_width="324dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        android:background="#FBFBFB"
+        android:calendarViewShown="false"
+
+        android:datePickerMode="spinner"
+        android:textColor="@color/colorBLANCO"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="265dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/colorROJO"
+        android:text="buscar vehiculo"
+        android:textColor="@color/colorBLANCO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/datePickerFinal" />
+
+</android.support.constraint.ConstraintLayout>

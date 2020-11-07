@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_logo"
+    tools:context=".activity_principal">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="410dp"
+        android:layout_height="91dp"
+
+        android:layout_marginTop="48dp"
+        android:background="@color/colorNEGRO"
+        android:fontFamily="@font/black_ops_one"
+        android:gravity="center_vertical"
+        android:text="nombre..."
+        android:textColor="@color/colorBLANCO"
+        android:textSize="24sp"
+        android:typeface="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imv_mis_reservas"
+        android:layout_width="323dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="49dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/btn_mis_reservas" />
+
+    <ImageView
+        android:id="@+id/imv_reservar"
+        android:layout_width="323dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imv_mis_reservas"
+        app:srcCompat="@drawable/btn_reservar_v2" />
+
+    <ImageView
+        android:id="@+id/imv_about"
+        android:layout_width="323dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imv_reservar"
+        app:srcCompat="@drawable/btn_about" />
+
+
+</android.support.constraint.ConstraintLayout>
